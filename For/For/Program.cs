@@ -24,6 +24,13 @@
 //{
 //    Console.WriteLine($"{i+1}. loomanimi on: {objectArray[i]}");
 //}
-//                      0           1               2               3           4
-string[] monsters = {"MrSkeltal","Frankenstein","Shigeru Myamoto","Kratt","Joodik Balti Jaamas" };
-Console.WriteLine(monsters[0]);
+////                      0           1               2               3           4
+//string[] monsters = {"MrSkeltal","Frankenstein","Shigeru Myamoto","Kratt","Joodik Balti Jaamas" };
+//Console.WriteLine(monsters[0]);
+
+Console.WriteLine("Palun sisesta oma täisnimi");
+string isikuNimi = Console.ReadLine();
+for (int i = 0; i < isikuNimi.Length; i++)
+{
+    Console.WriteLine(isikuNimi[i]);
+}
