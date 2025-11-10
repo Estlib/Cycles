@@ -28,9 +28,26 @@
 //string[] monsters = {"MrSkeltal","Frankenstein","Shigeru Myamoto","Kratt","Joodik Balti Jaamas" };
 //Console.WriteLine(monsters[0]);
 
-Console.WriteLine("Palun sisesta oma täisnimi");
-string isikuNimi = Console.ReadLine();
-for (int i = 0; i < isikuNimi.Length; i++)
-{
-    Console.WriteLine(isikuNimi[i]);
-}
+//Console.WriteLine("Palun sisesta oma täisnimi");
+//string isikuNimi = Console.ReadLine();
+//for (int i = 0; i < isikuNimi.Length; i++)
+//{
+//    Console.WriteLine(isikuNimi[i]);
+//}//}
+
+
+// kirjuta programm mis küsib kasutajalt tema nime ja parooli
+
+// kui parool on vale, anna nimeline teavitus
+
+// kui nimi on vale, ütle et isik pole registreerunud
+
+// tekita massiiv suurusega 3
+
+// kui mõtlemad on õiged, siis while tsüklis küsi kasutajalt tema 3 lemmikloomanime
+
+// kuva talle sisestuste arv (mitu ta sisestas)
+
+// ning küsi milline on ta lemmikuim
+
+// tagasta kasutajale lause koos selle lemmiknimega adresseerides seda järjendist[]
